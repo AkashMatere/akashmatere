@@ -11,6 +11,7 @@ public class HomeController {
     @RequestMapping("/")
     public String greet(){
         System.out.println("akash");
+        System.out.println("aka");
         return "Welcome to telusko";
     }
 @RequestMapping("/about")
